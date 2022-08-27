@@ -80,7 +80,7 @@ function groupPlayers(players) {
   return groupPlayers;
  }
 
- //console.log(groupPlayers(array_test));
+ console.log(groupPlayers(array_test));
 
 }
 
