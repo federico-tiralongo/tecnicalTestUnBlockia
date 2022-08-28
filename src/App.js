@@ -12,6 +12,13 @@ const App = () => {
   { "name": "Nader", "recentlyPlayedWith": ["Adil", "Ben", "Arthur",
   "Walter"] },
   ]
+
+//para que si hay un array que se repite esta funcion
+//no te contará el array duplicado 
+let _2dArray = new Set();
+  _2dArray = array_test.map((item, index) => [item.name]);
+     console.log("array", _2dArray);  
+
 function cleanData(arr) {
   return arr.map((player) => {
       let newPlayer = {
